@@ -1,0 +1,38 @@
+/*font-family: 'Lora', serif;
+font-family: 'Cinzel', serif;
+font-family: 'Cinzel Decorative', cursive;
+font-family: 'Brawler', serif;*/
+
+body {
+  background-color: rgb(253,244,228);
+  font-family: 'Brawler', serif;
+}
+
+.parralax {
+  opacity: .9;
+}
+
+.carousel {
+  height:600px;
+}
+
+.dev-car {
+  height: 500px;
+  width: 100%;
+}
+
+.border {
+  border: solid black 5px;
+}
+
+.add-shadow {
+  text-shadow: 2px 2px #000000;
+}
+
+.section {
+  background-color: rgb(253,244,238);
+}
+
+.fa-pencil {
+  margin-left: 30px;
+}
