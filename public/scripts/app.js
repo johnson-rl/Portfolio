@@ -14,4 +14,12 @@ $(document).ready(function(){
      $('.slider').slider('prev');
    })
 
+   $(function() {
+     //single book
+     $('#mybook').booklet({
+       menu: '#custom-menu-2',
+        chapterSelector: true
+     });
+    });
+
 });
