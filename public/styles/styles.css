@@ -42,8 +42,28 @@ body {
   border-radius: 30px;
 }
 
-.responsive-img {
+.hero-image {
   width: 90%;
   border: solid rgb(66,44,30);
   border-radius: 30px;
+}
+
+.button-group {
+  width: 100%;
+  background-color: rgb(255,249,248);
+  border: 1px solid rgb(150,150,150);
+  margin-top: 10px;
+  color: rgb(33,32,31);
+}
+
+.button-group:hover {
+  background-color: rgb(243,234,228);
+}
+
+.hide {
+  visibility: hidden;
+}
+
+.page-footer {
+  background-color: rgb(126,78,41)!important;
 }
