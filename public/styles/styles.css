@@ -80,3 +80,12 @@ body {
 .modal-title {
   text-align: center;
 }
+
+.login {
+  text-emphasis: bold;
+  background-color: rgb(55,71,79);
+  color: white;
+  border: solid black 1px;
+  border-radius: 10px;
+  text-align: center;
+}
