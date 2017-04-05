@@ -38,14 +38,18 @@ body {
 }
 
 .background-shadow {
-  background-color: rgba(253,244,238,.4);
+  background-color: rgba(253,244,238,.85);
   border-radius: 30px;
+  border: solid 1px #37474F;
+  text-align: center;
 }
 
 .hero-image {
   width: 90%;
   border: solid rgb(175,175,200);
   border-radius: 30px;
+  height: 250px;
+  object-fit: cover;
 }
 
 .button-group {
@@ -66,4 +70,13 @@ body {
 
 .page-footer {
   background-color: rgb(126,78,41)!important;
+}
+
+.modal-img {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.modal-title {
+  text-align: center;
 }

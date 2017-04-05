@@ -3,6 +3,7 @@ console.log("not crazy");
 $(document).ready(function(){
    $('.parallax').parallax();
    $('.slider').slider();
+   $('.modal').modal()
 
    $('.next').click(function (event){
      event.preventDefault()

@@ -8,10 +8,10 @@
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="crossorigin="anonymous"></script>
 
     <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/css/materialize.min.css">
 
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+     <!-- Compiled and minified JavaScript -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/js/materialize.min.js"></script>
 
     <!-- Materialize Icons -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -68,40 +68,55 @@
         <h5 class="center">(click one!)</h5>
         <br>
         <br>
+      </div>
 
 
         <!-- Project Slider -->
 
-      </div>
       <div class="row">
         <div class="slider">
           <ul class="slides" id="append-projects">
+
+            <!-- Attendant Tracker Slide -->
             <li>
-              <a href="https://the-attendant-tracker.herokuapp.com/">
+              <a href="#modal1">
                 <img src="https://i.imgur.com/ezmcER8.png">
-                <div class="caption center-align background-shadow">
-                  <h3 class="blue-grey-text text-darken-3 add-shadow">Attendant Tracker</h3>
-                  <h5 class="light blue-grey-text text-darken-3 add-shadow">A NERP Stack tool to manage attendant care for disabled persons </h5>
+                <div class="caption left-align background-shadow">
+                  <h3 class="blue-grey-text text-darken-3">Attendant Tracker</h3>
+                  <h5 class="light blue-grey-text text-darken-3">A NERP Stack tool to manage attendant care for disabled persons </h5>
                 </div>
               </a>
             </li>
 
+            <!-- TASC Slide -->
             <li>
-              <a href="https://floating-lowlands-88571.herokuapp.com/">
-                <img src="https://i.imgur.com/YyJaMNV.png">
+              <a href="#modal2">
+                <img src="https://i.imgur.com/e8JeyMl.png">
                 <div class="caption center-align background-shadow">
-                  <h3 class="blue-grey-text text-darken-3 add-shadow">TASC - Teachers and Students Connecting</h3>
-                  <h5 class="light blue-grey-text text-darken-3 add-shadow">Facilitating communication and feedback between teachers and students</h5>
+                  <h3 class="blue-grey-text text-darken-3">TASC - Teachers and Students Connecting</h3>
+                  <h5 class="light blue-grey-text text-darken-3">Facilitating communication and feedback between teachers and students</h5>
                 </div>
               </a>
             </li>
 
+            <!-- Keeping T.I.M.E. Slide -->
             <li>
-              <a href="https://warm-hamlet-72558.herokuapp.com/">
+              <a href="#modal3">
                 <img src="https://i.imgur.com/iV4dlGK.png">
+                <div class="caption right-align background-shadow">
+                  <h3 class="blue-grey-text text-darken-3">Keeping T.I.M.E.</h3>
+                  <h5 class="light blue-grey-text text-darken-3">An Angular app for learning languages through music</h5>
+                </div>
+              </a>
+            </li>
+
+            <!-- Vagabond Slide -->
+            <li>
+              <a href="#modal4">
+                <img src="https://i.imgur.com/qHAzO60.jpg">
                 <div class="caption center-align background-shadow">
-                  <h3 class="blue-grey-text text-darken-3 add-shadow">Keeping T.I.M.E.</h3>
-                  <h5 class="light blue-grey-text text-darken-3 add-shadow">An Angular app for learning languages through music</h5>
+                  <h3 class="blue-grey-text text-darken-3">Vagabond</h3>
+                  <h5 class="light blue-grey-text text-darken-3">Traverse the Globe while Tracking Your Travels!</h5>
                 </div>
               </a>
             </li>
@@ -110,6 +125,8 @@
           <br>
           <br>
         </div>
+
+        <!-- Buttons that control slider -->
         <div class="row">
           <br>
           <br>
@@ -127,6 +144,134 @@
     </div>
 
 
+    <!-- Attendant Tracker Modal -->
+    <div id="modal1" class="modal modal-fixed-footer">
+      <div class="modal-content">
+        <h4 class="modal-title">Attendant Tracker</h4>
+        <div class="row">
+          <div class="col m6">
+            <img class="modal-img" src="https://i.imgur.com/ezmcER8.png">
+          </div>
+          <div class="col m5 offset-m1">
+            <h5>Tech</h5>
+            <hr>
+            <div class="col m6">
+              <p>Javascript</p>
+              <p>React</p>
+              <p>Redux</p>
+              <p>Skeleton</p>
+              <p>Socket.io</p>
+            </div>
+            <div class="col m6">
+              <p>Node.js</p>
+              <p>Express</p>
+              <p>Sequelize</p>
+              <p>PostgreSQL</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <h5>Achievement</h5>
+          <p>Over the course of three weeks I taught myself es6, React, Redux, Sequelize, and Socket.io and then constructed this application.  Having worked extensively with disabled persons in the past, I was able to conduct research into the best solutions for their needs.  This app allows people with disabilities to magage, schedule and contact their attendants and care givers with efficiency and ease.  I am especially proud of the infinite calendar, which I designed from scratch and the chat room, which allows a user to communicate with her entire network when the need arises.</p>
+          <p>Attendant Tracker is a passion project of mine, and it's development is ongoing.  I've recently begun construction of a related mobile app and plan to release version 1.0 of Attendant Tracker website and app in the summer of 2017.</p>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="modal-action modal-close waves-effect waves-green btn-flat">Close</button>
+        <a href="https://github.com/johnson-rl/Attendant-Tracker" class="modal-action modal-close waves-effect waves-green btn-flat">Code</a>
+        <a href="https://the-attendant-tracker.herokuapp.com/" class="modal-action modal-close waves-effect waves-green btn-flat">Site</a>
+      </div>
+    </div>
+
+    <!-- TASC Modal -->
+    <div id="modal2" class="modal modal-fixed-footer">
+      <div class="modal-content">
+        <h4 class="modal-title">TASC - Teachers and Students Connecting</h4>
+        <div class="row">
+          <div class="col m6">
+            <img class="modal-img" src="https://i.imgur.com/xnJqudF.png">
+          </div>
+          <div class="col m5 offset-m1">
+            <h5>Tech</h5>
+            <hr>
+              <p>Ruby</p>
+              <p>Rails</p>
+              <p>Materialize</p>
+              <p>PostgreSQL</p>
+          </div>
+        </div>
+        <div class="row">
+          <h5>Achievement</h5>
+          <p>I designed and implemented a complicated database with multiple user classes and complicated and varied relationships.  Because of the multiple user classes and complicated set of permissions, each view was carefully crafted so that only the relevant and permitted data would be shown to each user, despite each user viewing the same page.</p>
+          <p>Over the course of just one week, myself and three other students conducted extensive user research, then planned and constructed a fully functional application.</p>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="modal-action modal-close waves-effect waves-green btn-flat">Close</button>
+        <a href="https://github.com/Vedelopment/tasc" class="modal-action modal-close waves-effect waves-green btn-flat">Code</a>
+        <a href="https://floating-lowlands-88571.herokuapp.com/" class="modal-action modal-close waves-effect waves-green btn-flat">Site</a>
+      </div>
+    </div>
+
+    <!-- Keeping T.I.M.E. Modal -->
+    <div id="modal3" class="modal modal-fixed-footer">
+      <div class="modal-content">
+        <h4 class="modal-title">Keeping T.I.M.E.</h4>
+        <div class="row">
+          <div class="col m6">
+            <img class="modal-img" src="https://i.imgur.com/QT8T6rq.png">
+          </div>
+          <div class="col m5 offset-m1">
+            <h5>Tech</h5>
+            <hr>
+              <p>Javascript</p>
+              <p>Angular</p>
+              <p>Materialize</p>
+              <p>Node.js</p>
+              <p>Express</p>
+          </div>
+        </div>
+        <div class="row">
+          <h5>Achievement</h5>
+          <p>I made an auto-loading search bar using Angular's two way data binding.  Also, I worked with a team of UX designers to create a polished an functional app in just one weekend!</p>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="modal-action modal-close waves-effect waves-green btn-flat">Close</button>
+        <a href="https://github.com/johnson-rl/Keeping-Time" class="modal-action modal-close waves-effect waves-green btn-flat">Code</a>
+        <a href="https://warm-hamlet-72558.herokuapp.com" class="modal-action modal-close waves-effect waves-green btn-flat">Site</a>
+      </div>
+    </div>
+
+    <!-- Vagabond Modal -->
+    <div id="modal4" class="modal modal-fixed-footer">
+      <div class="modal-content">
+        <h4 class="modal-title">Vagabond</h4>
+        <div class="row">
+          <div class="col m6">
+            <img class="modal-img" src="https://i.imgur.com/BumiEEo.png">
+          </div>
+          <div class="col m5 offset-m1">
+            <h5>Tech</h5>
+            <hr>
+              <p>Ruby</p>
+              <p>Rails</p>
+              <p>Materialize</p>
+              <p>PostgreSQL</p>
+          </div>
+        </div>
+        <div class="row">
+          <h5>Achievement</h5>
+          <p>Using tags attached to the travelouge entries, I am able to rank the top activities in each location based on user feedback.  The activity ranking algorithm is featured on the code page.  By tracking this data, I have left many open doors for future development: I can recommend locations based on favorite activities, connect users with similar interests or gamify the site encouraging users to increase their review totals and gain points for participating in activities.</p>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="modal-action modal-close waves-effect waves-green btn-flat">Close</button>
+        <a href="https://github.com/c00z/Vagabond" class="modal-action modal-close waves-effect waves-green btn-flat">Code</a>
+        <a href="https://immense-taiga-88650.herokuapp.com/" class="modal-action modal-close waves-effect waves-green btn-flat">Site</a>
+      </div>
+    </div>
+
     <div class="parallax-container">
       <!-- <div class="parallax"><img src="https://i.imgur.com/jaUHbIO.jpg"></div> -->
       <div class="parallax"><img src="https://i.imgur.com/TDOkLpF.jpg"></div>
@@ -138,39 +283,36 @@
         <div class="row">
           <div class="col m9">
             <div class="contact">
-              <br>
-              <div class="row">
-                <div class="col m4">
-                  <img class="hero-image" src="https://media.licdn.com/media/AAEAAQAAAAAAAAc5AAAAJGU3MDEyNmQxLWY1YTEtNDA0OS1iZWE3LWZkYzA4ZTNjMTBjZg.jpg" alt="">
+              <div class="col m4">
+                <img class="hero-image" src="https://media.licdn.com/media/AAEAAQAAAAAAAAc5AAAAJGU3MDEyNmQxLWY1YTEtNDA0OS1iZWE3LWZkYzA4ZTNjMTBjZg.jpg" alt="">
+              </div>
+              <div class="col m8">
+                <div class="row">
+                  <h5>Ryan Johnson</h5>
+                  <hr>
                 </div>
-                <div class="col m7">
-                  <div class="row">
-                    <h5>Ryan Johnson</h5>
-                    <hr>
+                <div class="row">
+                  <div class="col m3">
+                    Email:
                   </div>
-                  <div class="row">
-                    <div class="col m3">
-                      Email:
-                    </div>
-                    <div class="col m9">
-                      <a href="mailto:johnson.rl@gmail.com?subject=jerbs!">johnson.rl@gmail.com</a>
-                    </div>
+                  <div class="col m9">
+                    <a href="mailto:johnson.rl@gmail.com?subject=jerbs!">johnson.rl@gmail.com</a>
                   </div>
-                  <div class="row">
-                    <div class="col m3">
-                      Github:
-                    </div>
-                    <div class="col m9">
-                      <a href="https://github.com/johnson-rl">github.com/johnson-rl</a>
-                    </div>
+                </div>
+                <div class="row">
+                  <div class="col m3">
+                    Github:
                   </div>
-                  <div class="row">
-                    <div class="col m3">
-                      LinkedIn:
-                    </div>
-                    <div class="col m9">
-                      <a href="https://www.linkedin.com/in/johnson-rl/">linkedin.com/in/johnson-rl</a>
-                    </div>
+                  <div class="col m9">
+                    <a href="https://github.com/johnson-rl">github.com/johnson-rl</a>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col m3">
+                    LinkedIn:
+                  </div>
+                  <div class="col m9">
+                    <a href="https://www.linkedin.com/in/johnson-rl/">linkedin.com/in/johnson-rl</a>
                   </div>
                 </div>
               </div>
@@ -180,7 +322,9 @@
                 <img class="hero-image" src="https://i.imgur.com/94wwUch.jpg" alt="">
               </div>
               <div class="col m8">
-                <p>I'm basically the coooolest!</p>
+                <p>Raised in rural California, I have an appreciation for everything outdoors: camping, fishing, backpacking, anything to get away and let my mind recharge.</p>
+                <p>As a San Francisco resident for the last ten years, I value cultural diversity and the beauty of sharing communal space with about a million of your neighbors.</p>
+                <p>I currently live in Russian Hill with my amazing girlfriend, a counselor in the SF Unified School District, and a cat named Juniper, who often "helps" me code by chasing the mouse cursor.</p>
               </div>
             </div>
             <div class="adventure hide">
